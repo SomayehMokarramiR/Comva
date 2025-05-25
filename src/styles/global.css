@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: "IranYekan";
+    src: url("./assets/fonts/Yekan.ttf");
+  }
+}
+body {
+  font-family: "IranYekan";
+}
+
+@theme {
+  --color-primary: "#0182FE";
+}
