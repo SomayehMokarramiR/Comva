@@ -1,4 +1,5 @@
 import Button from "../../../ui/Button";
+import ButtonBig from "../../../ui/ButtonBig";
 import H1 from "../../../ui/H1";
 
 function Section4() {
@@ -23,12 +24,12 @@ function Section4() {
               </p>
             </div>
             <div>
-              <button className="mt-4 rounded-4xl bg-[#FE3E01] px-[34px] py-4 text-[14px] leading-[140%] text-white hover:cursor-pointer">
-                <span className="flex gap-1">
-                  <img src="/src/assets/image/message-edit.png" /> ثبت نام
-                  رایگان
-                </span>
-              </button>
+              <ButtonBig
+                color="#FE3E01"
+                picture="src/assets/image/message-edit.png"
+              >
+                ثبت نام رایگان
+              </ButtonBig>
             </div>
           </div>
         </div>

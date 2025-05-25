@@ -1,3 +1,5 @@
+import ButtonBig from "../../../ui/ButtonBig";
+
 function Menu() {
   return (
     <div className="flex gap-8">
