@@ -1,4 +1,4 @@
-function H1({ children, size = "32px" }) {
+function H1({ children, size = "32" }) {
   return (
     <h1
       className={`text-[${size}px] mt-[53px] leading-[140%] font-bold text-[#171F26]`}

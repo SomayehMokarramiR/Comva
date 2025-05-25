@@ -3,7 +3,7 @@ import H1 from "../../../ui/H1";
 function Section1() {
   return (
     <div className="mt-[135px]">
-      <H1 size={44}>
+      <H1 size="44">
         سامانه مدیریت <span className="text-[#0182FE]">هوشمند</span>
         <br /> سفارشهای اینترنتی
       </H1>

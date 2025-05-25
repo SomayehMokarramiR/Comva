@@ -18,7 +18,7 @@ function MaintContent() {
         <Button>حالت نمایش</Button>
       </div>
       <Section2 />
-      <div className="mt-[80px]">
+      <div className="mt-[200px]">
         <Button>امکانات</Button>
       </div>
       <Section3 />
