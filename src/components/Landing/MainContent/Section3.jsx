@@ -2,7 +2,7 @@ import H1 from "../../../ui/H1";
 
 function Section3() {
   return (
-    <>
+    <div className="mt-">
       <H1>جدیدترین مدل مدیریت سبد خریدها</H1>
       <p>
         بیش از صدها فروشگاه سبد خریدهای خود را در کارت ساز با امکانات متفاوت این
@@ -11,7 +11,7 @@ function Section3() {
       <div className="mt-[69px]">
         <img src="/src/assets/image/Frame 10.png" />
       </div>
-    </>
+    </div>
   );
 }
 

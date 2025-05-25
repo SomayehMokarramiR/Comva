@@ -1,4 +1,3 @@
-import Border from "../../../ui/border";
 import H1 from "../../../ui/H1";
 
 function Section1() {
@@ -8,10 +7,6 @@ function Section1() {
         سامانه مدیریت <span className="text-[#0182FE]">هوشمند</span>
         <br /> سفارشهای اینترنتی
       </H1>
-      {/* <h1 className="text-[44px] text-black">
-        سامانه مدیریت <span className="text-[#0182FE]">هوشمند</span>
-        <br /> سفارشهای اینترنتی
-      </h1> */}
       <div className="mx-auto mt-[66px] h-[384.75px] w-[684px] rounded-2xl">
         <img src="/src/assets/image/Slide 16_9 - 1.png" />
       </div>
@@ -24,7 +19,6 @@ function Section1() {
       <div className="mx-auto mt-6 h-6 w-6">
         <img src="/src/assets/image/arrow-down.png" />
       </div>
-      {/* <Border/> */}
     </div>
   );
 }
