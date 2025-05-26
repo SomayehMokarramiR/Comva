@@ -1,4 +1,5 @@
-import Footer from "../components/Landing/Footer";
+// import Footer from "../components/Landing/Footer";
+import FooterMobile from "../components/Landing/FooterMobile";
 // import Header from "../components/Landing/Header/Header";
 import HeaderMobile from "../components/Landing/HeaderMobile/Header";
 // import MaintContent from "../components/Landing/MainContent/MaintContent";
@@ -13,7 +14,8 @@ function Landing() {
       {/* <MaintContent2 /> */}
       <HeaderMobile />
       <MaintContent3 />
-      <Footer />
+      <FooterMobile />
+      {/* <Footer /> */}
     </div>
   );
 }
