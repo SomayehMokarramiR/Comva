@@ -10,13 +10,19 @@ function Section2() {
         به راحتی مشتریان را مدیریت کنید وسفارشات خود را به موقع ارسال و آن ها را
         جمع آوری کنید.
       </p>
-      <div className="mx-auto mt-[66px] h-[384.75px] w-[684px] rounded-2xl">
-        <div className="relative h-[544px] w-[810px]">
-          <img src="/src/assets/image/Frame.png" />
-        </div>
-        <div className="absolute top-[1050px] left-[140px] h-[471px] w-[233.85px] -translate-x-1.5 -translate-y-1.5 transform rounded-[22.1px] object-cover">
-          <img src="/src/assets/image/X Mockup.png" />
-        </div>
+      <div className="relative container mx-auto mt-[66px] h-[384.75px] w-[684px] rounded-2xl">
+        {/* <div className="relative container h-[544px] w-[810px] overflow-hidden"> */}
+        <img
+          src="/src/assets/image/Frame.png"
+          className="h-[544px] w-[810px] overflow-hidden"
+        />
+        {/* </div> */}
+        {/* <div className="absolute top-[244%] left-[10%] h-[471px] w-[233.85px] rounded-[22.1px] object-cover"> */}
+        <img
+          src="/src/assets/image/X Mockup.png"
+          className="absolute top-[20%] left-[-24%] h-[471px] w-[233.85px] rounded-[22.1px] object-cover"
+        />
+        {/* </div> */}
       </div>
     </div>
   );
