@@ -1,4 +1,4 @@
-import Border from "../../../ui/border";
+import Border from "../../../ui/Border";
 import Button from "../../../ui/Button";
 import Section12 from "./Section12";
 import Section2 from "../MainContent/Section2";
@@ -10,7 +10,9 @@ function MaintContent() {
   return (
     <div className="mx-auto">
       <Section12 />
-      <Border />
+      <div w={1224} className="mt-[89px]">
+        <Border />
+      </div>
       <div className="mt-[80px]">
         <Button>حالت نمایش</Button>
       </div>
@@ -21,7 +23,7 @@ function MaintContent() {
       <Section3 />
       <Section4 />
       <Section55 />
-      <Border />
+      <Border w={1224} />
     </div>
   );
 }
