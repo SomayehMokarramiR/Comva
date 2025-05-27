@@ -27,7 +27,9 @@ function MaintContent() {
       <Section3 />
       <Section4 />
       <Section55 />
-      <Border />
+      <div className="mt-[60px]">
+        <Border />
+      </div>
     </div>
   );
 }
