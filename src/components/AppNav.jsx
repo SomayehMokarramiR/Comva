@@ -8,7 +8,7 @@ function AppNav() {
           <NavLink to="/">Landing</NavLink>
         </li>
         <li>
-          <NavLink to="shop">Shop</NavLink>
+          <NavLink to="/shop">Shop</NavLink>
         </li>
       </ul>
     </div>

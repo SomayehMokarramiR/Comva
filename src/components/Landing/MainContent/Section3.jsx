@@ -1,4 +1,5 @@
 import H1 from "../../../ui/H1";
+import CardList from "../MainContentP2Mobile/CardList";
 
 function Section3() {
   return (
@@ -8,8 +9,8 @@ function Section3() {
         بیش از صدها فروشگاه سبد خریدهای خود را در کارت ساز با امکانات متفاوت این
         سامانه مدیریت کنید .
       </p>
-      <div className="mt-[69px]">
-        <img src="/src/assets/image/Frame 10.png" />
+      <div className="mt-0 md:mt-[69px]">
+        <CardList />
       </div>
     </div>
   );

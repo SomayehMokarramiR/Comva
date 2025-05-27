@@ -11,18 +11,14 @@ function Section2() {
         جمع آوری کنید.
       </p>
       <div className="relative container mx-auto mt-[66px] h-[384.75px] w-[684px] rounded-2xl">
-        {/* <div className="relative container h-[544px] w-[810px] overflow-hidden"> */}
         <img
           src="/src/assets/image/Frame.png"
           className="h-[544px] w-[810px] overflow-hidden"
         />
-        {/* </div> */}
-        {/* <div className="absolute top-[244%] left-[10%] h-[471px] w-[233.85px] rounded-[22.1px] object-cover"> */}
         <img
           src="/src/assets/image/X Mockup.png"
           className="absolute top-[20%] left-[-24%] h-[471px] w-[233.85px] rounded-[22.1px] object-cover"
         />
-        {/* </div> */}
       </div>
     </div>
   );

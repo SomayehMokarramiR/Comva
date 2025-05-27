@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import AppLayout from "./ui/AppLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Landing from "./pages/Landing";

@@ -5,7 +5,7 @@ function AppLayout() {
   return (
     <div>
       <div className="container mx-auto justify-items-center">
-        {/* <AppNav /> */}
+        <AppNav />
         <main className="mx-auto">
           <Outlet />
         </main>

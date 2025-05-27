@@ -4,7 +4,7 @@ function Menu() {
   return (
     <div className="flex gap-8">
       {/* pl-[333px] */}
-      <ul className="flex list-none gap-8 text-xl">
+      <ul className="hidden list-none gap-8 text-xl md:flex">
         <li>آپدیت ها</li>
         <li> سوالات متداول</li>
         <li> تماس با ما </li>

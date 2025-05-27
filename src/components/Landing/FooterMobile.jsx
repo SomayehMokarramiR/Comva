@@ -1,5 +1,4 @@
 import Logo from "./Header/Logo";
-import Menu from "./HeaderMobile/Menu";
 
 function FooterMobile() {
   return (
