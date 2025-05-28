@@ -1,7 +1,7 @@
 // import Footer from "../components/Landing/Footer";
-import ContactUs from "../components/Landing/ContactUs/ContactUs";
+// import ContactUs from "../components/Landing/ContactUs/ContactUs";
 import FooterMobile from "../components/Landing/FooterMobile";
-// import FrequentlyQuestions from "../components/Landing/FrequentlyQuestions/FrequentlyQuestions";
+import FrequentlyQuestions from "../components/Landing/FrequentlyQuestions/FrequentlyQuestions";
 import Header from "../components/Landing/Header/Header";
 // import MaintContent from "../components/Landing/MainContent/MaintContent";
 // import MaintContent2 from "../components/Landing/MainContentP2/MaintContent2";
@@ -14,8 +14,8 @@ function Landing() {
       {/* <MaintContent /> */}
       {/* <MaintContent2 /> */}
       {/* <MaintContent3 /> */}
-      {/* <FrequentlyQuestions /> */}
-      <ContactUs />
+      <FrequentlyQuestions />
+      {/* <ContactUs /> */}
       <FooterMobile />
       {/* <Footer /> */}
     </div>
