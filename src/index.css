@@ -9,7 +9,11 @@
 body {
   font-family: "IranYekan";
   color: #74787c;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
+
 @theme {
   --color-primary: "#0182FE";
   --color-secondary: #74787c;
