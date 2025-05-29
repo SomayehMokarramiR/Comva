@@ -3,25 +3,25 @@ import Product from "./Product";
 const dataProduct = [
   {
     image: "/src/assets/image/image 15.png",
-    price: "265000",
+    price: "265000 تومان",
     title:
       "من هستم تایتل تستی مانیتور مخصوص بازی مدل سامسونگ LF27T350FH-M 27 اینچ",
   },
   {
     image: "/src/assets/image/image 15.png",
-    price: "445000",
+    price: "445000 تومان",
     title:
       "من هستم تایتل تستی مانیتور مخصوص بازی مدل سامسونگ LF27T350FH-M 27 اینچ",
   },
   {
     image: "/src/assets/image/image 15.png",
-    price: "26665000",
+    price: "26665000 تومان",
     title:
       "من هستم تایتل تستی مانیتور مخصوص بازی مدل سامسونگ LF27T350FH-M 27 اینچ",
   },
   {
     image: "/src/assets/image/image 15.png",
-    price: "363500",
+    price: "363500 تومان",
     title:
       "من هستم تایتل مانیتور مخصوص بازی مدل سامسونگ LF27T350FH-M 27 اینچ سوم",
   },

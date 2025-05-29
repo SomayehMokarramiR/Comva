@@ -1,9 +1,10 @@
 // import Footer from "../components/Landing/Footer";
 // import ContactUs from "../components/Landing/ContactUs/ContactUs";
 import FooterMobile from "../components/Landing/FooterMobile";
+import Page3 from "../components/Landing/Page3.jsx/Page3";
 // import FrequentlyQuestions from "../components/Landing/FrequentlyQuestions/FrequentlyQuestions";
-import Header from "../components/Landing/Header/Header";
-import Page6 from "../components/Landing/Page6.jsx/Page6";
+// import Header from "../components/Landing/Header/Header";
+// import Page6 from "../components/Landing/Page6.jsx/Page6";
 // import MaintContent from "../components/Landing/MainContent/MaintContent";
 // import MaintContent2 from "../components/Landing/MainContentP2/MaintContent2";
 // import MaintContent3 from "../components/Landing/MainContentP2Mobile/MaintContent3";
@@ -21,7 +22,8 @@ function Landing() {
       {/* <FooterMobile /> */}
       {/* <Footer /> */}
 
-      <Page6 />
+      {/* <Page6 /> */}
+      <Page3 />
     </div>
   );
 }

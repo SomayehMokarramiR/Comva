@@ -12,7 +12,7 @@ function Product({ image, title, price }) {
           <p className="text-right text-[12px] leading-[180%]">{title}</p>
         </div>
         <div className="flex h-[24px] w-full items-center justify-start">
-          <p className="text-right text-[12px] leading-[180%] text-[#00966D]">
+          <p className="text-right text-[14px] leading-[180%] text-[#00966D]">
             {price}
           </p>
         </div>

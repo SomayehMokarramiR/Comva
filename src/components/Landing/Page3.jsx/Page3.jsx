@@ -1,8 +1,8 @@
 import HeaderProduct from "../../../ui/HeaderProduct";
 import Search from "../../../ui/Search";
-import ProductList from "./ProductList";
+import ItemList from "./ItemList";
 
-function Page6() {
+function Page3() {
   return (
     <>
       <div className="relative">
@@ -11,11 +11,11 @@ function Page6() {
           <Search />
         </div>
         <div className="pt-[30px]">
-          <ProductList />
+          <ItemList />
         </div>
       </div>
     </>
   );
 }
 
-export default Page6;
+export default Page3;
