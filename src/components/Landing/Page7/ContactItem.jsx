@@ -8,7 +8,7 @@ function ContactItem({ bgColor, icon, title, text, color }) {
         <img src={icon} />
         <p className="">{title}</p>
       </div>
-      <div className="text-end">
+      <div style={{ direction: "ltr", textAlign: "left" }}>
         <p>{text}</p>
       </div>
     </div>
