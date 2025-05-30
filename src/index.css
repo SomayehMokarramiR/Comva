@@ -13,13 +13,19 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-.swiper-button-prev,
-.swiper-button-next {
-  color: red;
+.custom-prev,
+.custom-next {
+.custom-prev,
+.custom-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+    z-index: 10 !important;
 }
-.swiper-pagination-bullet-active {
-  background: red;
-}
+
 
 @theme {
   --color-primary: "#0182FE";
