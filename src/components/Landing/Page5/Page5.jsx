@@ -1,20 +1,49 @@
+import HeaderP5 from "./HeaderP5";
+import Slider from "./Slider";
+
 function Page5() {
   return (
-    <div className="fixed right-0 left-0 container w-screen border-t border-b border-[#CBCBCB]">
-      <div className="mx-auto flex h-[80px] w-full max-w-screen-xl items-center gap-4 px-4">
-        <div className="h-6 w-6">
-          <img src="src/assets/image/arrow-left.png" alt="Arrow" />
-        </div>
-        <div className="h-[40px] w-[40px] rounded-[8px] border border-[#CBCBCB]">
-          <img src="src/assets/image/Frame 32.png" alt="logo" />
-        </div>
-        <div className="flex flex-grow items-center">
-          <h6 className="text-[16px] leading-[140%] font-bold text-black capitalize">
-            فروشگاه کارت ساز
-          </h6>
+    <>
+      <div>
+        <HeaderP5 />
+        <div className="relative top-[110px]">
+          <div className="h-[56px] w-[366px]">
+            <p className="items-center text-right text-[20px] leading-[140%] font-bold text-[#0182FE]">
+              پخش کننده خانگی سامسونگ مدل SoundTower MX T-50
+            </p>
+          </div>
+          <div className="relative top-[30px]">
+            <Slider />
+          </div>
+          <div className="relative top-[30px] flex h-[289px] w-[742px] justify-center p-4">
+            <div className="absolute top-[30px] left-1/2 container mx-auto h-full -translate-x-1/2 transform items-center rounded-lg border-[1px] border-[#EDEDED] p-4 text-right text-[#74787C] capitalize">
+              <div className="h-[29px] w-[66px]">
+                <p className="text-[16px] leading-[180%] font-normal">
+                  توضیحات
+                </p>
+              </div>
+              <div className="h-[220px] w-[344px]">
+                <p className="text-[12px] leading-[180%] font-[300px]">
+                  اسپیکر صوتی قدرتمند سامسونگSamsung MX-T50 ، دارای صدای استریو
+                  و دو جهته بوده که با 500 وات نیرو می‌تواند یک میهمانی را به
+                  خوبی پوشش داده و فضای داخلی را با صدای بزرگنمایی شده پر
+                  می‌کند. Samsung MX-T50 با طراحی منحصر به فرد دو جهته، طراحی و
+                  عرضه شده است تا موسیقی، شما را به یک بخش وسیعتری از محیط برای
+                  تجربه صدای عالی دعوت کند. با برخورداری از دکمه Bass Booster به
+                  آسانی می‌توانید مهمانی خود را با لمس یک دکمه شاد و پر قدرت
+                  کنید. اسپیکرهای دو جهته با طراحی منحصر به فرد، هر فضایی ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="h-[56px] w-[366px] rounded-lg bg-[#0182FE] px-8 py-4 text-white">
+            <p className="flex items-center justify-center text-[14px] capitalize">
+              خرید مستقیم از دایرکت اینستاگرام
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
