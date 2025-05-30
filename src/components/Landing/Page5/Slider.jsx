@@ -1,21 +1,23 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Navigation } from "swiper/modules";
+import { Navigation, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Slider = () => {
   return (
     <div className="relative">
       <Swiper
         effect="fade"
-        modules={[EffectFade, Navigation]}
+        modules={[EffectFade, Navigation, Pagination]}
         spaceBetween={50}
         slidesPerView={1}
         navigation={{
           prevEl: ".custom-prev",
           nextEl: ".custom-next",
         }}
+        pagination={{ clickable: true }}
         loop
       >
         <SwiperSlide>
@@ -41,18 +43,29 @@ const Slider = () => {
         </SwiperSlide>
       </Swiper>
       {/* دکمه‌های ناوبری سفارشی */}
-      <div className="flex justify-between px-10">
-        <div className="custom-prev absolute top-1/2 left-4 flex h-[60px] w-[60px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-4 border-[#CBCBCB]">
-          <div className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-[#0182FE]">
-            <span className="text-lg text-white">&#10095;</span>
-          </div>
-        </div>
 
-        <div className="custom-next absolute top-1/2 right-4 flex h-[60px] w-[60px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-4 border-[#CBCBCB]">
-          <div className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-[#CBCBCB]">
-            <span className="text-lg text-white">&#10094;</span>
-          </div>
+      <div className="custom-prev absolute top-1/2 left-1 flex h-[40px] w-[40px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-1 border-[#CBCBCB]">
+        <div className="flex h-[32px] w-[32px] items-center justify-center rounded-full bg-[#1a7bd5]">
+          <span className="text-lg text-white">&#10095;</span>
         </div>
+      </div>
+
+      <div className="custom-next absolute top-1/2 right-1 flex h-[40px] w-[40px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-1 border-[#CBCBCB]">
+        <div className="flex h-[32px] w-[32px] items-center justify-center rounded-full bg-[#CBCBCB]">
+          <span className="text-lg text-white">&#10094;</span>
+        </div>
+      </div>
+
+      {/* نقاط ناوبری سفارشی در پایین اسلایدر */}
+      <div className="absolute bottom-[40px] left-1/2 flex -translate-x-1/2 transform space-x-3">
+        {[...Array(3)].map((_, index) => (
+          <div
+            key={index}
+            className="relative flex h-6 w-6 items-center justify-center rounded-full border-2 border-[#CBCBCB]"
+          >
+            <div className="h-3 w-3 rounded-full bg-[#0182FE]"></div>
+          </div>
+        ))}
       </div>
     </div>
   );
