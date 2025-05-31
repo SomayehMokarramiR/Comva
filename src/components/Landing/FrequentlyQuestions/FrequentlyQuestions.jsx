@@ -10,10 +10,10 @@ function FrequentlyQuestions() {
       <div className="mt-[160px]">
         <Section4 />
       </div>
+      <Section55 />
       <div className="mt-[60px]">
         <Border />
       </div>
-      <Section55 />
     </div>
   );
 }
