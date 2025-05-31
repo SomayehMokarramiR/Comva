@@ -25,6 +25,10 @@ body {
   z-index: 10 !important;
 }
 
+div .swiper-pagination-horizontal {
+  position: relative;
+  bottom: -6px;
+}
 @theme {
   --color-primary: "#0182FE";
   --color-secondary: #74787c;

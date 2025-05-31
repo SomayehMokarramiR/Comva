@@ -55,18 +55,6 @@ const Slider = () => {
           <span className="text-lg text-white">&#10094;</span>
         </div>
       </div>
-
-      {/* نقاط ناوبری سفارشی در پایین اسلایدر */}
-      <div className="absolute bottom-[40px] left-1/2 flex -translate-x-1/2 transform space-x-3">
-        {[...Array(3)].map((_, index) => (
-          <div
-            key={index}
-            className="relative flex h-6 w-6 items-center justify-center rounded-full border-2 border-[#CBCBCB]"
-          >
-            <div className="h-3 w-3 rounded-full bg-[#0182FE]"></div>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
