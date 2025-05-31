@@ -1,7 +1,7 @@
 function DescriptionBox() {
   return (
-    <div className="relative top-[30px] flex h-[289px] w-[742px] justify-center p-4">
-      <div className="absolute top-[30px] left-1/2 container mx-auto h-full -translate-x-1/2 transform items-center rounded-lg border-[1px] border-[#EDEDED] p-4 text-right text-[#74787C] capitalize">
+    <div className="relative top-[60px] flex h-[289px] w-full max-w-[742px] justify-center p-4">
+      <div className="absolute left-1/2 h-full -translate-x-1/2 transform items-center rounded-lg border-[1px] border-[#EDEDED] p-4 text-right text-[#74787C] capitalize">
         <div className="h-[29px] w-[66px]">
           <p className="text-[16px] leading-[180%] font-normal">توضیحات</p>
         </div>
