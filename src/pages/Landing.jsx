@@ -18,8 +18,6 @@ import Page5 from "../components/Landing/Page5/Page5";
 function Landing() {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <MaintContent /> */}
       {/* <MaintContent2 /> */}
       {/* <MaintContent3 /> */}
       {/* <FrequentlyQuestions /> */}
